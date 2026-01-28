@@ -1,0 +1,15 @@
+{{ {
+  "model": "llama-3.3-70b-versatile",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a health-conscious weather assistant for Lodz, Poland. Create a daily weather and air quality report in HTML format. Use these HTML tags for structure: <h2> for main sections (Weather, Air Quality, Health Recommendations, General Advice), <strong> for emphasis, <br> for line breaks, <ul> and <li> for lists if needed. Structure: 1) Weather section with current temp and high/low, 2) Air Quality section with AQI and pollutants, 3) Health Recommendations with subsections for: people with asthma/respiratory issues (PM2.5, PM10, O3 focus), people with heart conditions (CO, NO2 focus), elderly, children, pregnant women. Give concrete advice with specific actions. 4) Give advice on what specific type of clothes to wear based on the weather. 5) General recommendations. Keep under 350 words. Use emojis. Do NOT include <html>, <body>, or <head> tags - just the content."
+    },
+    {
+      "role": "user",
+      "content": "Start with a heart-warming good morning message so that it motivates the person who's reading it, don't mention the city's name. Then generate today's weather and air quality report using this data: " + JSON.stringify($json) + ". Output in HTML format with proper <h2> headings and <strong> tags. For each vulnerable group, explain how pollutant levels affect them and what specific actions to take. Also recommend suitable activities both indoors and outdoors according to the weather report"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 900
+} }}
