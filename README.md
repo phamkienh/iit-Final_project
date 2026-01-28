@@ -13,9 +13,9 @@ Based on our research, we selected these APIs and tools to ensure global functio
 * **Weather & Air Pollution:** [OpenWeatherMap API](https://openweathermap.org/)
     * *Why:* Utilized in the workflow to fetch 5-day weather forecasts and detailed air quality metrics (PM2.5, PM10, CO, NO2, O3) which are essential for the health impact analysis.
 * **NOAA & AirQuality:** [NOAA & Air quality](https://airquality.weather.gov/?element=ozone01_bc&mapcenter=-108.59%2C44.62&mapzoom=6&subregion=CONUS&region=CONUS)
-     * *why:* Provides official U.S. government air quality data and forecasts with comprehensive pollutant measurements. Offers detailed visualizations and historical data for comparison with other sources.
+     * *Why:* Provides official U.S. government air quality data and forecasts with comprehensive pollutant measurements. Offers detailed visualizations and historical data for comparison with other sources.
 * **Visual Crossing:** [Visual Crossing](https://www.visualcrossing.com/)
-   * *why:* Offers extensive historical weather data and forecasts with flexible query options, ideal for analyzing long-term weather patterns and trends alongside current conditions.
+   * *Why:* Offers extensive historical weather data and forecasts with flexible query options, ideal for analyzing long-term weather patterns and trends alongside current conditions.
 <br><br>
 ## For automation
 * **Groq:** [Groq API](https://groq.com/)
