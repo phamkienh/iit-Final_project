@@ -22,3 +22,6 @@ Based on our research, we selected these APIs and tools to ensure global functio
     * *Why:* It is currently the fastest AI platform, allowing for instant response generation.
 * **Automation:** [n8n](https://n8n.io/)
     * *Why:* The workflow engine used to orchestrate the data fetching, processing, AI generation, and email scheduling.
+
+## Example of output:
+![Alt text](n8n-code/images/output.png)
