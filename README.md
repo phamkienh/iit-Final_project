@@ -1,5 +1,5 @@
 # iit-Final_project
-iit final project about gathering data information from the weather forecast daily and recommend appropriate clothing based on the data
+iit final project about gathering data from the weather forecast daily and recommending appropriate clothing based on the data
 
 ## Data Sources and Tools
 Based on our research, we selected these APIs and tools to ensure global functionality:
@@ -23,5 +23,5 @@ Based on our research, we selected these APIs and tools to ensure global functio
 * **Automation:** [n8n](https://n8n.io/)
     * *Why:* The workflow engine used to orchestrate the data fetching, processing, AI generation, and email scheduling.
 
-## Example of output:
+## Example of an output:
 ![Alt text](n8n-code/images/output.png)
