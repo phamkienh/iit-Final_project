@@ -25,3 +25,20 @@ Based on our research, we selected these APIs and tools to ensure global functio
 
 ## Example of an output:
 ![Alt text](n8n-code/images/output.png)
+
+## Publicly Available Test Workflow
+The purpose of this workflow is to test the API. It accepts three arguments (`city`, `country`, `language`) and returns a recommendation (`content`) with a formatted location (`display_name`).
+
+### API Endpoint
+`https://n8n.naxot.pl/webhook/weather?city=Lodz&country=Poland&language=en`
+
+### Parameters
+| Key | Description |
+| :--- | :--- |
+| **city** | The name of the city. |
+| **country** | The name of the country. |
+| **language** | The preferred response language. |
+
+### Response
+- `content`: The generated recommendation.
+- `display_name`: Standardized location string.
